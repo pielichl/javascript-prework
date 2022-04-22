@@ -1,14 +1,11 @@
-var argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
-
 /**
  * Buttons definition
  */
-function buttonClicked(argButtonName) {
+
+    function buttonClicked(argButtonName) {
     clearMessages();
     console.log(argButtonName + ' został kliknięty');
     
-    let computerMove, playerMove, randomNumber;
-  
     
     function getMoveName(argMoveId) {
       console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
